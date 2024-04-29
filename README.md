@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+Desafio
+Usando a API gratuita de notícias do IBGE em sua versão 3, você será responsável por criar uma listagem com as notícias mais recentes, consultando o endpoint GET /noticias para realizar a listagem.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Você deve garantir que o usuário possa registrar suas notícias favoritas.
 
-Currently, two official plugins are available:
+Foi disponibilizado o layout do figma. Essa é uma versão simplificada, fique a vontade para modificar e incrementar o layout conforme sua preferência e criatividade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Requisitos funcionais
+A pessoa usuária deve ter acesso às notícias mais recentes do IBGE
 
-## Expanding the ESLint configuration
+A pessoa usuária deve conseguir acessar a notícia completa clicando em seu link
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A pessoa usuária deve ter a informação de quantos dias atrás essa notícia foi publicada
 
-- Configure the top-level `parserOptions` property like this:
+A pessoa usuária deve conseguir favoritar as notícias que mais gostou
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+A criação de testes é um importante indicador de que as funcionalidades estão sendo verificadas, como o Mock da API e testes das principais funcionalidades
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A realização do Deploy é um diferencial muito positivo, lembre de enviar o link no readme do seu repositório
+
+Requisitos não funcionais
+O app deverá ser criado usando React
+
+Na raiz do projeto, será necessário incluir um arquivo README.md com as instruções para construir/rodar seu projeto localmente. Opcionalmente você pode detalhar as razões pelas escolhas de ferramentas e técnicas aplicadas ao desafio.
+
+O app deverá ser responsivo

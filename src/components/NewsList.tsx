@@ -21,7 +21,7 @@ function NewsList({ news }: NewsListProps) {
     alert('Os favoritos estão no final da página.');
   }
 
-  const favoriteNews = news.filter((item, index) => isFavorite[index]);
+  const favoriteNews = news.filter((_, index) => isFavorite[index]);
 
   return (
     <>
