@@ -1,26 +1,41 @@
-Desafio
-Usando a API gratuita de notícias do IBGE em sua versão 3, você será responsável por criar uma listagem com as notícias mais recentes, consultando o endpoint GET /noticias para realizar a listagem.
+# IBGE News App
 
-Você deve garantir que o usuário possa registrar suas notícias favoritas.
+## Descrição
 
-Foi disponibilizado o layout do figma. Essa é uma versão simplificada, fique a vontade para modificar e incrementar o layout conforme sua preferência e criatividade.
+O IBGE News App é uma aplicação web que permite aos usuários visualizarem as notícias mais recentes fornecidas pela API do IBGE e favoritar suas notícias preferidas. Os usuários podem clicar nas notícias para ler a notícia completa, ver quantos dias atrás ela foi publicada e marcar suas favoritas.
 
-Requisitos funcionais
-A pessoa usuária deve ter acesso às notícias mais recentes do IBGE
+## Tecnologias Utilizadas
 
-A pessoa usuária deve conseguir acessar a notícia completa clicando em seu link
+- React.js
+- React Router
+- TypeScript
+- CSS
 
-A pessoa usuária deve ter a informação de quantos dias atrás essa notícia foi publicada
+## Como Rodar o Projeto Localmente
 
-A pessoa usuária deve conseguir favoritar as notícias que mais gostou
+1. Clone este repositório:
+git clone <URL_DO_REPOSITORIO>
 
-A criação de testes é um importante indicador de que as funcionalidades estão sendo verificadas, como o Mock da API e testes das principais funcionalidades
+2. Navegue até a pasta do projeto:
+cd ibge-news
 
-A realização do Deploy é um diferencial muito positivo, lembre de enviar o link no readme do seu repositório
+3. Instale as dependências:
+npm install
 
-Requisitos não funcionais
-O app deverá ser criado usando React
+4. Execute o projeto:
+npm start
 
-Na raiz do projeto, será necessário incluir um arquivo README.md com as instruções para construir/rodar seu projeto localmente. Opcionalmente você pode detalhar as razões pelas escolhas de ferramentas e técnicas aplicadas ao desafio.
 
-O app deverá ser responsivo
+## Notas Adicionais
+
+- Para este projeto, optei por usar o React.js devido à sua popularidade, flexibilidade e facilidade de desenvolvimento de interfaces de usuário interativas.
+
+- Decidi utilizar TypeScript para adicionar tipagem estática ao projeto, o que melhora a robustez e a manutenibilidade do código.
+
+- Fiz uso do React Router para gerenciar a navegação entre as páginas da aplicação.
+
+- O layout e o estilo da aplicação foram feitos usando CSS puro, sem o uso de bibliotecas de estilo adicionais.
+
+## Deploy
+
+Este projeto já foi implantado no GitHub Pages. Você pode acessá-lo aqui. Além disso, se preferir, também pode clonar o repositório e executar o projeto localmente seguindo as instruções acima.
