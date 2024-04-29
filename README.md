@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# IBGE News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+O IBGE News App é uma aplicação web que permite aos usuários visualizarem as notícias mais recentes fornecidas pela API do IBGE e favoritar suas notícias preferidas. Os usuários podem clicar nas notícias para ler a notícia completa, ver quantos dias atrás ela foi publicada e marcar suas favoritas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React.js
+- React Router
+- TypeScript
+- CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como Rodar o Projeto Localmente
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone este repositório:
+git clone <URL_DO_REPOSITORIO>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navegue até a pasta do projeto:
+cd ibge-news
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Instale as dependências:
+npm install
+
+4. Execute o projeto:
+npm start
+
+
+## Notas Adicionais
+
+- Para este projeto, optei por usar o React.js devido à sua popularidade, flexibilidade e facilidade de desenvolvimento de interfaces de usuário interativas.
+
+- Decidi utilizar TypeScript para adicionar tipagem estática ao projeto, o que melhora a robustez e a manutenibilidade do código.
+
+- Fiz uso do React Router para gerenciar a navegação entre as páginas da aplicação.
+
+- O layout e o estilo da aplicação foram feitos usando CSS puro, sem o uso de bibliotecas de estilo adicionais.
+
+## Deploy
+
+Este projeto já foi implantado no GitHub Pages. Você pode acessá-lo aqui. Além disso, se preferir, também pode clonar o repositório e executar o projeto localmente seguindo as instruções acima.
