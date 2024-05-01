@@ -38,4 +38,4 @@ npm start
 
 ## Deploy
 
-Este projeto já foi implantado no GitHub Pages. Você pode acessá-lo aqui. Além disso, se preferir, também pode clonar o repositório e executar o projeto localmente seguindo as instruções acima.
+Este projeto já foi implantado no Vercel. Além disso, se preferir, também pode clonar o repositório e executar o projeto localmente seguindo as instruções acima.
